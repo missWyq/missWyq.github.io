@@ -152,19 +152,19 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-is-a-sb-wy" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Mysql" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/11/is-a-sb-wy/">is_a_sb_wy</a>
+      <a class="article-title" href="/2022/03/11/Mysql/">is_a_sb_wy</a>
     </h1>
   
 
         
-        <a href="/2022/03/11/is-a-sb-wy/" class="archive-article-date">
+        <a href="/2022/03/11/Mysql/" class="archive-article-date">
   	<time datetime="2022-03-11T06:41:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-11</time>
 </a>
         
@@ -172,7 +172,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/sb.jpg"></p>
+        <h2 id="EXISTS-和-NOT-EXISTS"><a href="#EXISTS-和-NOT-EXISTS" class="headerlink" title="EXISTS 和 NOT EXISTS"></a>EXISTS 和 NOT EXISTS</h2><p>1.select * from A where not exists (select * from B where A.id&#x3D;B.id)<br>2.select * from A where exists (select * from B where A.id&#x3D;B.id)<br>规律:执行顺序先外在内;<br>#exists<br>1)先满足查询 select * from A ,从外查询取出一条数据给内查询<br>2)内查询执行select * from B ,外查询查询的数据和内查询获取的数据根据where后面的条件作对比,入股<br>    满足A.id &#x3D; b.id 则返回ture ,如果一条都不满足则返回法false<br>3)内查询返回true,则外查询保存这条数据,,若返回false则外查询这行数据都不显示,外查询所有数据进行匹配,<br>    not exists 和exists 相反;</p>
 
       
 
@@ -185,7 +185,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/11/is-a-sb-wy/">展开全文 >></a>
+          <a class="article-more-a" href="/2022/03/11/Mysql/">展开全文 >></a>
         </p>
       
 
@@ -238,7 +238,7 @@
         <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>wy大宝贝,天天黏我</p>
 <h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>我喜欢wy黏着我</p>
 <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a target="_blank" rel="noopener" href="http://www.wyqawy.com/">www.wyqawy.com</a></p>
-<p><img src="/is-a-sb-wy.md" alt="sb"></p>
+<p><img src="/source/_posts/Mysql.md" alt="sb"></p>
 
       
 
